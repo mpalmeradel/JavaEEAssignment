@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>bookshoptags</short-name>
+  <uri>/WEB-INF/tlds/BookShopTags</uri>
+  
+  <tag>
+      <name>DisplayCart</name>
+      
+      <tagclass>
+          tags.DisplayCart
+      </tagclass>
+      
+      <bodycontent>empty</bodycontent>
+      
+      <info>
+          Prepares contents of shopping cart and displays in a table
+      </info>
+  </tag>
+  
+  
+  <tag>
+      <name>DisplayCheckout</name>
+      
+      <tagclass>
+          tags.DisplayCheckout
+      </tagclass>
+      
+      <bodycontent>empty</bodycontent>
+      
+      <info>
+          Prepares checkout list and displays
+      </info>
+      
+  </tag>
+  
+  <tag>
+      <name>DisplayCartSmall</name>
+      
+      <tagclass>
+          tags.DisplayCartSmall
+      </tagclass>
+      
+      <bodycontent>empty</bodycontent>
+      
+      <info>
+          Displays a small table of cart items
+      </info>
+  </tag>
+  
+  <tag>
+      <name>BookSelection</name>
+      
+      <tagclass>
+          tags.BookSelection
+      </tagclass>
+      
+      <bodycontent>empty</bodycontent>
+      
+      <info>
+          Displays a choice of books
+      </info>
+  </tag>
+  
+</taglib>
